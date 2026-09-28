@@ -1,0 +1,19 @@
+node_modules/
+build/
+
+# a Chrome for Testing downloaded with: npx @puppeteer/browsers install chrome@stable --path .chrome
+.chrome/
+
+# golden frames are per machine (npm run baseline)
+.regress/
+
+# rendered videos are too big for git: they're downloads on the GitHub Release (linked from the website).
+# Re-render any of them with: node tools/export-reel.mjs reels/<reel>.json
+showcase/**/*.mp4
+showcase/**/*.mov
+showcase/**/*.wav
+
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini

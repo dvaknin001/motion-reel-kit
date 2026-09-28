@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "niche": "Tech channel outro",
+    "title": "Byte Sized end card",
+    "facts": "Fictional channel."
+  },
+  "title": "BYTE SIZED",
+  "roll": ["REVIEWS", "TEARDOWNS", "BENCHMARKS", "BUYING GUIDES"],
+  "note": "New episodes every Thursday. Next week: the $49 phone.",
+  "colors": { "accent": "#2DE2C9" },
+  "palette": ["#2DE2C9", "#ECE9E1", "#0A0B0D"]
+}

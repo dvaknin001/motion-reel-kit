@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "niche": "Volcano & disaster explainers",
+    "title": "Heard 4,800 km Away",
+    "why": "The rings are the sound itself spreading from the volcano: each place that reported the blast lights up the moment the front reaches it, Perth lands on the edge of the first ring, and the second ring keeps going until it finds Rodrigues.",
+    "facts": "27 Aug 1883, 10:02 a.m. (Wikipedia, 1883 eruption of Krakatoa). All six places reported hearing the blast: Perth ~3,110 km and Rodrigues ~4,800 km (Wikipedia); Alice Springs ~3,600 km (Wikipedia; Royal Society); the Nicobar Islands ~1,300 mi (Royal Society report, quoted by A. Bhatia, Nautilus 2012); Singapore (S. Winchester, Krakatoa, 2003); Batavia ~160 km. The Royal Society's Krakatoa Committee (Symons 1888) logged 84 land and 15 ship reports, 16 of them beyond 3,000 km; Rodrigues was the farthest credible one (T. Gabrielson, Acoustics Today, 2010). On-screen distances are great-circle distances from 6.10°S 105.42°E. Ring times assume sound at 343 m/s. 172 dB: the Batavia gasworks pressure spike (Bhatia 2012). Natural Earth 50m map."
+  },
+  "map": "krakatoa",
+  "unit": "km",
+  "site": { "name": "KRAKATOA", "sub": "VOLCANO · {coords}", "lon": 105.423, "lat": -6.102, "highlight": null },
+  "rings": [
+    { "label": "≈2.5 HR", "radius": 3100, "readout": "LIKE ARTILLERY" },
+    { "label": "≈3.9 HR", "radius": 4800, "readout": "LIKE HEAVY GUNS" }
+  ],
+  "ringLabelBearing": 280,
+  "target": "Perth",
+  "cities": [
+    { "name": "Batavia", "lon": 106.83, "lat": -6.13, "label": "right" },
+    { "name": "Singapore", "lon": 103.82, "lat": 1.35 },
+    { "name": "Nicobar Is.", "lon": 92.82, "lat": 9.17 },
+    { "name": "Perth", "lon": 115.86, "lat": -31.95, "callout": "PERTH, W. AUSTRALIA", "label": "right" },
+    { "name": "Alice Springs", "lon": 133.88, "lat": -23.7 },
+    { "name": "Rodrigues", "lon": 63.42, "lat": -19.72, "label": "right" }
+  ],
+  "header": { "label": "ACOUSTIC REPORTS", "text": "27 AUG 1883 — 10:02 LOCAL TIME" },
+  "readout": { "range": "SOUND FRONT", "count": "REPORTS PLOTTED:" },
+  "inRange": "HEARD",
+  "outOfRange": "NOT HEARD",
+  "alert": { "text": "172 dB", "sub": "BATAVIA GASWORKS GAUGE" },
+  "closing": { "text": "HEARD ", "accent": "4,800 KM AWAY.", "sub": "KRAKATOA · 27 AUGUST 1883 · ON RODRIGUES" },
+  "framing": null,
+  "graticule": null,
+  "droneHz": 32.7,
+  "bg": "#0A0602",
+  "palette": ["#FFB547", "#8FE3FF", "#FF5A36"],
+  "colors": {
+    "phosphor": "#FFB547", "pale": "#FFE7C4", "accent": "#8FE3FF", "hit": "#FF5A36", "bg": "#0A0602", "shade": "#060301", "panel": "#0A0603",
+    "closing": "#FFF4E3", "closingAccent": "#BDF0FF", "closingSub": "#FFD9A8", "alertSub": "#CFF4FF", "alertBg": "#00202B",
+    "crt": { "pulse": "#FFE2B8", "sweep": "#FFD9A0", "band": "#FFC878", "glare": "#FFE9CC", "tear": "#FFE0B0", "powerLine": "#FFF3E0", "powerFlash": "#FFEBD2" }
+  }
+}

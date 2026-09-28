@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "niche": "Unsolved mysteries",
+    "title": "The Blackwood Lake Lights",
+    "why": "The string ties three lights in the sky to a man who vanished, every stop adds a detail that refuses to fit, and the stamp promises the video will not explain it away.",
+    "facts": "Fictional case, invented for this piece: Blackwood Lake, Alder County, the Alder Herald, the missing fisherman, the witnesses and every date and time. No real people or events are depicted."
+  },
+  "caseFile": "CASE FILE No. 74-0822",
+  "caseTitle": "THE BLACKWOOD LAKE LIGHTS",
+  "newspaper": {
+    "name": "THE ALDER HERALD",
+    "issue": "VOL. XXXI · No. 198",
+    "date": "SATURDAY, AUGUST 24, 1974",
+    "price": "15¢",
+    "headline": "LIGHTS OVER LAKE,\nFISHERMAN MISSING",
+    "subhead": "Deputies find his boat drifting, motor still running",
+    "photo": "shore"
+  },
+  "photos": [
+    { "type": "lights", "caption": "OVER THE LAKE", "mark": "circle" },
+    { "type": "car", "caption": "HEADLIGHTS ON", "mark": "" },
+    { "type": "figure", "caption": "", "mark": "question" }
+  ],
+  "map": { "place": "NORTH SHORE", "water": "Blackwood Lake", "mark": "cross" },
+  "cards": ["RADIO WENT\nDEAD AT 9:14", "3 WITNESSES.\nSAME LIGHTS."],
+  "route": ["photo1", "map", "photo3", "photo2"],
+  "links": { "newspaper": "photo1", "card1": "photo2", "card2": "map" },
+  "lowerThird": { "label": "LAST SEEN:", "detail": "AUG 22, 1974 · 9:14 PM", "place": "BLACKWOOD LAKE, NORTH SHORE" },
+  "stamp": "UNEXPLAINED",
+  "background": "#060A09",
+  "bg": "#060A09",
+  "palette": ["#B3261E", "#A8E6CF", "#16211E"],
+  "colors": {
+    "grade": "#27463F",
+    "lamp": ["#EAF3EE", "#BCD3C8", "#6F8C80", "#26342F", "#0A0F0D"],
+    "lampGlow": ["#A8E6CF", "#7FD1B4"]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "niche": "Baking",
+    "title": "Grandma’s Apple Pie, 1962",
+    "facts": "Filling amounts and the bake (425°F for 40–50 minutes, shown as 45) follow Betty Crocker’s classic two-crust apple pie (bettycrocker.com, 'Apple Pie'), with the 1/8 tsp salt left off the card. The card, the 1962 date and Grandma June are fictional."
+  },
+  "title": "Grandma’s Apple Pie",
+  "year": "1962",
+  "kitchen": "Grandma June",
+  "ingredients": [
+    { "amount": "Pastry", "item": "for a 2-crust pie" },
+    { "amount": "8 cups", "item": "sliced tart apples" },
+    { "amount": "½ cup", "item": "sugar" },
+    { "amount": "¼ cup", "item": "flour" },
+    { "amount": "½ tsp", "item": "cinnamon" },
+    { "amount": "½ tsp", "item": "nutmeg" },
+    { "amount": "2 tbsp", "item": "butter, dotted on top" }
+  ],
+  "method": "BAKE AT {temp} · {time}",
+  "oven": { "temp": 425, "unit": "F" },
+  "timer": 45,
+  "dish": "pie",
+  "padNotes": [196, 246.9, 293.7, 370],
+  "palette": ["#2F5D9E", "#F6EEDC", "#C8322B"],
+  "bg": "#1C3355",
+  "cloth": { "base": "#EEF0F0", "check": "#2C5DA8", "weave": "#1C2E50", "shade": "#10233F", "vignette": "#081326", "shadow": "#0B1830", "cardShadow": "#0E1B33" }
+}

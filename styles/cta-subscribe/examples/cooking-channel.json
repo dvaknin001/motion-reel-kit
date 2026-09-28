@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "niche": "Cooking channels",
+    "title": "Join the Table",
+    "why": "The warm palette and ingredient-coloured confetti make the ask feel like part of the kitchen, and the count names the audience (home cooks), so subscribing reads as joining a club rather than pressing a button.",
+    "facts": "Fictional cooking channel: 'Brisk & Braise' and its counts are invented placeholders, not a real channel. No platform branding."
+  },
+  "channel": "Brisk & Braise",
+  "initials": "BB",
+  "countFrom": 249999,
+  "countTo": 250000,
+  "countLabel": "home cooks",
+  "badgeLabel": "HOME COOKS",
+  "padNotes": [174.6, 220, 261.6, 349.2],
+  "endChord": [349.2, 440, 523.3, 698.5],
+  "endPing": 2093,
+  "background": "radial-gradient(110% 95% at 50% 36%, #2E1409 0%, #1C0E07 40%, #0E0A08 100%)",
+  "palette": ["#F25C1F", "#FBF3EA", "#1D1714"],
+  "colors": {
+    "accent": "#F25C1F", "hover": "#FF7438", "hoverGlow": "#FF6424",
+    "soft": "#FFA36B", "light": "#FFC99E", "likeEdge": "#FF8A4F",
+    "ink": "#FBF3EA", "count": "#B9A99B", "countAfter": "#D8CABC", "done": "#362C27", "doneInk": "#F2E9E0",
+    "gold": "#FFCF6E", "badge": ["#FFEBC4", "#FFFFFF", "#FF8646"], "badgeLabel": "#FF9E62", "badgeGlow": "#FF8A3C", "badgeShadow": "#FF7A30",
+    "ring": ["#F25C1F", "#FFB23F", "#E8432E"], "avatar": ["#6E2C10", "#35150A", "#1E0C06"], "card": ["#342B27", "#1D1714"],
+    "lights": ["#C2410C", "#FF7A3D", "#7A2E12", "#FFB27A"], "bokeh": ["#FF8A4F", "#FFD2A0"],
+    "confetti": ["#E8432E", "#FFB020", "#5DBB63", "#FFF1DC", "#D9542B", "#FFD66B"]
+  }
+}

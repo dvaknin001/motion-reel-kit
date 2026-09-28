@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "niche": "Stars & stellar astronomy",
+    "title": "Smaller Than Earth",
+    "why": "The hook is a surprise, a whole star smaller than Earth, and every zoom after it raises the stakes until one star would swallow the orbits out to Jupiter. The ladder runs from the smallest stars to one of the largest known.",
+    "facts": "Sirius B radius 0.008098 solar radii (Bond et al. 2017, ApJ 840, 70), about 11,270 km across. Earth mean diameter 12,742 km (NASA). Proxima Centauri radius 0.1542 ± 0.0045 solar radii (Kervella et al. 2017, A&A 598, L7), about 214,600 km across. Sun radius 695,700 km (NASA Sun fact sheet), used as the solar radius throughout. VY Canis Majoris radius 1,420 ± 120 solar radii (Wittkowski et al. 2012, A&A 540, L12; published estimates span about 600 to 2,100), so about 2 billion km across and 6.6 AU in radius, past Jupiter's orbit at 5.2 AU (NASA: 778.5 million km). Sizes to scale; spacing is not."
+  },
+  "eyebrow": "STARS TO SCALE",
+  "headline": "A star smaller than Earth?",
+  "bodies": [
+    { "id": "sirius-b", "name": "SIRIUS B", "rSun": 0.008098, "look": "whiteDwarf", "chip": "{ratio} Earth", "vs": "earth", "color": "#CFE0FF" },
+    { "id": "earth", "name": "EARTH", "km": 12742, "look": "earth", "chip": "you are here", "color": "#7FD4FF" },
+    { "id": "proxima", "name": "PROXIMA CENTAURI", "tag": "PROXIMA", "rSun": 0.1542, "look": "redDwarf", "chip": "{ratio} Earth", "vs": "earth", "color": "#FF8A5C" },
+    { "id": "sun", "name": "SUN", "rSun": 1, "look": "sun", "chip": "{ratio} Earth", "vs": "earth", "color": "#FFD36B" },
+    { "id": "vy-cma", "name": "VY CANIS MAJORIS", "rSun": 1420, "approx": true, "look": "redHypergiant", "chip": "{ratio} the Sun", "vs": "sun", "color": "#FF5A3A" }
+  ],
+  "callout": { "body": "sun", "label": "the Sun" },
+  "footnote": { "body": "earth", "label": "Earth:", "text": "too small to draw" },
+  "orbits": [
+    { "name": "Earth", "label": "EARTH ORBIT", "au": 1, "color": null },
+    { "name": "Mars", "label": "MARS ORBIT", "au": 1.524, "color": "#FFD36B" },
+    { "name": "Jupiter", "label": "JUPITER ORBIT", "au": 5.2, "color": "#9AD9FF" }
+  ],
+  "closing": "Swap it for the Sun and\nit would reach *past {orbit}.*",
+  "units": { "sunKm": 1391400 },
+  "looks": {
+    "whiteDwarf": { "like": "sun", "tint": "#D4E2FF", "spots": null, "prominence": null, "glowSize": 0.5 },
+    "redDwarf": { "like": "sun", "tint": "#FF7A45" },
+    "redHypergiant": { "like": "redSupergiant", "tint": "#FF6A3C" }
+  },
+  "padNotes": [98, 146.8, 196, 233.1, 293.7],
+  "droneHz": 49,
+  "background": "linear-gradient(165deg, #06111F 0%, #0B1A36 48%, #16123A 100%)",
+  "palette": ["#9AD9FF", "#FF5A3A", "#0B1A36"],
+  "colors": {
+    "accent": "#9AD9FF",
+    "nebula": ["#2F5FC4", "#1C8AA8", "#7A4CC0", "#24418F"]
+  }
+}

@@ -1,0 +1,99 @@
+<div class="wrap">
+  <header class="top">
+    <div class="brand"><span class="bars" aria-hidden="true"></span><span class="brand-name">{{brand}}</span><span class="brand-sub">{{brandSub}}</span></div>
+    <div class="spec">{{spec}}</div>
+  </header>
+
+  <section class="hero" aria-labelledby="hero-title">
+    <div>
+      <p class="eyebrow">{{eyebrow}}</p>
+      <h1 id="hero-title">{{headline}}</h1>
+    </div>
+    <p class="lede">{{lede}}</p>
+  </section>
+
+  <section class="theater" id="reel" aria-label="Reel player">
+    <div class="player" id="player">
+      <div class="stage-host" id="stage-host"><div class="stage" id="stage"></div></div>
+      <button class="bigplay" id="bigplay" type="button" aria-label="Play the reel with sound">
+        <span class="pill"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M3 1.8v12.4c0 .6.7 1 1.2.7l10-6.2c.5-.3.5-1 0-1.3l-10-6.3C3.7.8 3 1.2 3 1.8z" fill="currentColor"/></svg>Play the reel</span>
+        <small id="bigplay-meta">Sound on</small>
+      </button>
+    </div>
+
+    <div class="controls">
+      <button class="btn icon" id="btn-play" type="button" aria-label="Play"><svg viewBox="0 0 16 16" aria-hidden="true"><path id="play-glyph" d="M3 1.8v12.4c0 .6.7 1 1.2.7l10-6.2c.5-.3.5-1 0-1.3l-10-6.3C3.7.8 3 1.2 3 1.8z"/></svg></button>
+      <div class="tc" aria-live="off"><span id="tc-now">00:00:00:00</span> <span class="dur">/ <span id="tc-dur">00:00:00:00</span></span></div>
+      <div class="now"><span class="now-niche" id="now-niche"></span><span class="now-title" id="now-title"></span></div>
+      <div class="ctl-group">
+        <button class="btn" id="btn-sound" type="button" aria-pressed="false">Sound off</button>
+        <div class="seg" role="group" aria-label="Playback speed">
+          <button type="button" data-rate="1" aria-pressed="true">1×</button>
+          <button type="button" data-rate="0.5" aria-pressed="false">½×</button>
+          <button type="button" data-rate="0.25" aria-pressed="false">¼×</button>
+        </div>
+        <button class="btn" id="btn-loop" type="button" aria-pressed="false">Loop piece</button>
+        <button class="btn icon" id="btn-fs" type="button" aria-label="Fullscreen"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M1 1h5v2H3v3H1zm9 0h5v5h-2V3h-3zM1 10h2v3h3v2H1zm12 0h2v5h-5v-2h3z"/></svg></button>
+      </div>
+    </div>
+
+    <div class="nle" id="nle" tabindex="0" aria-label="Reel timeline. Use left and right arrow keys to scrub.">
+      <div class="nle-inner" id="nle-inner" style="position:relative">
+        <div class="ruler" id="ruler"></div>
+        <div class="track v1"><span class="lab">V1</span><div class="lane" id="lane-v"></div></div>
+        <div class="track a1"><span class="lab">A1</span><div class="lane"><canvas id="sfx-canvas"></canvas></div></div>
+        <div class="track bt"><span class="lab">NOTES</span><div class="lane" id="lane-b"></div></div>
+        <div class="playhead" id="playhead"></div>
+      </div>
+    </div>
+    <div class="legend" id="legend"></div>
+    <p class="commentary" id="commentary" aria-live="polite"><span class="c-tc" id="c-tc">NOTES</span><span class="c-text" id="c-text">Press play. A note on each editing decision appears here as the reel reaches it.</span></p>
+  </section>
+
+<!--if:resume-->
+  <dl class="sheet" aria-label="Résumé">
+      {{{resume}}}
+  </dl>
+<!--/if:resume-->
+
+  <section class="block" id="pieces" aria-labelledby="pieces-title">
+    <div class="sec-head">
+      <h2 id="pieces-title">{{piecesTitle}}</h2>
+      <p>{{piecesIntro}}</p>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+<!--if:rules-->
+  <section class="block" id="rules" aria-labelledby="rules-title">
+    <div class="sec-head">
+      <h2 id="rules-title">{{rulesTitle}}</h2>
+      <p>{{rulesIntro}}</p>
+    </div>
+    <div class="rules" id="rules-list"></div>
+  </section>
+<!--/if:rules-->
+
+  <section class="block" id="pipeline" aria-labelledby="pipe-title">
+    <div class="sec-head">
+      <h2 id="pipe-title">How it's made</h2>
+      <p>No stock footage, templates, plugins or sample packs. The pieces are code, so a new number, a new name or a new length is a re-render rather than a redraw.</p>
+    </div>
+    <ol class="steps">
+      <li><h3>Storyboard and facts</h3><p>Each piece gets a beat sheet with timings, a sound plan and a source for every real figure before anything moves.</p></li>
+      <li><h3>Build as timelines</h3><p>GSAP timelines drive SVG, canvas and type. Every frame is a pure function of time, so any frame can be rendered on its own.</p></li>
+      <li><h3>Design the sound</h3><p>Every sound effect is synthesised with Web Audio and locked to the frame of the visual event it belongs to.</p></li>
+      <li><h3>Render</h3><p>Headless Chrome steps through the frames, FFmpeg encodes 1080p{{fps}} H.264, and the audio is rendered offline and muxed in.</p></li>
+    </ol>
+    <div class="deliver">
+      <div><h3>Delivered with this reel</h3><ul>{{{deliver}}}</ul></div>
+<!--if:onRequest-->
+      <div><h3>Available on request</h3><ul>{{{onRequest}}}</ul></div>
+<!--/if:onRequest-->
+    </div>
+  </section>
+
+  <footer>
+    {{{footer}}}
+  </footer>
+</div>

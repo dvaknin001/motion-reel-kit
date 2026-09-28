@@ -1,0 +1,184 @@
+{
+  "name": "Opus 5.5 Motion Reel Vol. 2",
+  "fps": 60,
+  "lufs": -15,
+  "about": "Proof of reuse: every piece is a Volume 1 style fed its examples/*.json params. Same running order, transitions (each style's transIn) and mix trims as Volume 1.",
+  "sequence": [
+    {
+      "key": "intro",
+      "style": "reel-open-bars",
+      "role": "open",
+      "params": {
+        "slate": "OPUS 5.5 VOL. 2 — MOTION REEL",
+        "title": "OPUS 5.5 VOL. 2",
+        "stats": ["13 PIECES", "13 NICHES", "EVERY FRAME AND SOUND GENERATED FROM CODE"]
+      }
+    },
+    {
+      "key": "fitness-coach",
+      "style": "captions-kinetic",
+      "paramsFile": "styles/captions-kinetic/examples/fitness-coach.json",
+      "trans": { "type": "flash", "dur": 0.3 },
+      "mix": -1
+    },
+    {
+      "key": "index-fund-weekly",
+      "style": "finance-growth-curve",
+      "paramsFile": "styles/finance-growth-curve/examples/index-fund-weekly.json",
+      "trans": { "type": "whip", "dur": 0.45, "dir": 1 },
+      "mix": 1
+    },
+    {
+      "key": "blackwood-lake-lights",
+      "style": "truecrime-case-board",
+      "paramsFile": "styles/truecrime-case-board/examples/blackwood-lake-lights.json",
+      "trans": { "type": "glitch", "dur": 0.36 },
+      "mix": -0.5
+    },
+    {
+      "key": "fitness-rank-up",
+      "style": "gaming-loot-reveal",
+      "paramsFile": "styles/gaming-loot-reveal/examples/fitness-rank-up.json",
+      "trans": { "type": "zoom", "dur": 0.5 },
+      "mix": -2.5
+    },
+    {
+      "key": "napoleon-1812",
+      "style": "history-campaign-map",
+      "paramsFile": "styles/history-campaign-map/examples/napoleon-1812.json",
+      "trans": { "type": "burn", "dur": 0.7 },
+      "mix": 1.5
+    },
+    {
+      "key": "tennis-federer-nadal",
+      "style": "sports-head-to-head",
+      "paramsFile": "styles/sports-head-to-head/examples/tennis-federer-nadal.json",
+      "trans": { "type": "slash", "dur": 0.55 },
+      "mix": 0.8
+    },
+    {
+      "key": "stars-to-scale",
+      "style": "science-scale-zoom",
+      "paramsFile": "styles/science-scale-zoom/examples/stars-to-scale.json",
+      "trans": { "type": "iris", "dur": 0.6 },
+      "mix": -1.8
+    },
+    {
+      "key": "iliad-opening-line",
+      "style": "faith-scroll-reveal",
+      "paramsFile": "styles/faith-scroll-reveal/examples/iliad-opening-line.json",
+      "trans": { "type": "dip", "dur": 0.6 }
+    },
+    {
+      "key": "gaming-phone",
+      "style": "tech-spec-callouts",
+      "paramsFile": "styles/tech-spec-callouts/examples/gaming-phone.json",
+      "trans": { "type": "swipe", "dur": 0.5, "color": "#7FE3FF" },
+      "mix": 2
+    },
+    {
+      "key": "krakatoa-1883",
+      "style": "coldwar-range-rings",
+      "paramsFile": "styles/coldwar-range-rings/examples/krakatoa-1883.json",
+      "trans": { "type": "blinds", "dur": 0.5, "angle": 0, "stripe": 12 },
+      "mix": 0.8
+    },
+    {
+      "key": "grandmas-apple-pie",
+      "style": "cooking-recipe-card",
+      "paramsFile": "styles/cooking-recipe-card/examples/grandmas-apple-pie.json",
+      "trans": { "type": "push", "dur": 0.5, "dir": 1 },
+      "mix": 0.5
+    },
+    {
+      "key": "trailer-breakdown",
+      "style": "comics-panel-slam",
+      "paramsFile": "styles/comics-panel-slam/examples/trailer-breakdown.json",
+      "trans": { "type": "halftone", "dur": 0.55 },
+      "mix": -1.5
+    },
+    {
+      "key": "cooking-channel",
+      "style": "cta-subscribe",
+      "paramsFile": "styles/cta-subscribe/examples/cooking-channel.json",
+      "trans": { "type": "whip", "dur": 0.45, "dir": -1 },
+      "mix": -1.5
+    },
+    {
+      "key": "outro",
+      "style": "reel-close-bars",
+      "role": "close",
+      "trans": { "type": "dip", "dur": 0.5 },
+      "params": {
+        "title": "OPUS 5.5 VOL. 2",
+        "note": "Same styles as Volume 1. New params, new niches, no new animation code."
+      },
+      "mix": 1.5
+    }
+  ],
+  "page": {
+    "title": "Opus 5.5 Motion Reel Vol. 2",
+    "brand": "Opus 5.5",
+    "brandSub": "Motion reel · Vol. 2",
+    "eyebrow": "Showreel · Volume 2 · September 2026",
+    "headline": "Same code. Thirteen new niches.",
+    "lede": "Every piece in this reel is a Volume 1 style aimed at a different niche with a params file: new words, numbers, colours and facts, and no new animation code. Every frame and every sound is still generated live from code.",
+    "resume": [
+      ["Role", "Motion designer for YouTube channels"],
+      ["Niches", "Fitness coaching, Investing, Unsolved mysteries, Fitness app rank-ups, Data storytelling, Tennis, Stars & stellar astronomy, Classics & Ancient Literature, Mobile gaming, Volcano & disaster explainers, Baking, Movie trailer breakdowns, Cooking channels"],
+      ["Method", "One reusable style per niche family; new content is a JSON params file"],
+      ["Output", "H.264 MP4, 1080p60, 48 kHz stereo"]
+    ],
+    "piecesIntro": "Each piece is a Volume 1 style with new params. Hover a thumbnail to preview it; the play button jumps the reel to that piece. Real figures are sourced under each piece; invented ones say so.",
+    "rulesTitle": "How I cut for retention",
+    "rulesIntro": "The same rules as Volume 1, measured again from this reel's own timeline when the page loads.",
+    "rules": [
+      {
+        "title": "Change something every two seconds",
+        "text": "Across the {pieces} pieces, the longest stretch without a new visual event is {maxGap}.",
+        "links": [
+          { "key": "fitness-coach", "at": 4.9, "label": "The slam stack" },
+          { "key": "fitness-rank-up", "at": 0.8, "label": "A rank every half second" }
+        ]
+      },
+      {
+        "title": "Put a sound on every hit",
+        "text": "The reel carries {cues} sound cues in {duration}, one every {cueEvery}, each placed on the frame of the event it belongs to.",
+        "links": [
+          { "key": "trailer-breakdown", "at": 1.8, "label": "BRAAAM" },
+          { "key": "blackwood-lake-lights", "at": 6, "label": "The stamp" }
+        ]
+      },
+      {
+        "title": "Let the number ride the picture",
+        "text": "The tag rides the savings curve, the army count falls along the march, and each town lights up as the sound front reaches it.",
+        "links": [
+          { "key": "index-fund-weekly", "at": 1.4, "label": "Tag on the curve" },
+          { "key": "napoleon-1812", "at": 3.4, "label": "The count falls" },
+          { "key": "krakatoa-1883", "at": 2.4, "label": "Sound front" }
+        ]
+      },
+      {
+        "title": "Compute it, don't type it",
+        "text": "Totals, winners, ratios, distances and dial angles are computed from the params, so a new number is a re-render, not a redraw.",
+        "links": [
+          { "key": "tennis-federer-nadal", "at": 5.4, "label": "3–3, counted" },
+          { "key": "stars-to-scale", "at": 7, "label": "The Sun ≈ ½ pixel" }
+        ]
+      },
+      {
+        "title": "Get the facts right",
+        "text": "Real figures are sourced under each piece, and invented channels, products and cases are labelled as fictional.",
+        "links": [
+          { "key": "napoleon-1812", "at": 7.6, "label": "Minard's numbers" },
+          { "key": "iliad-opening-line", "at": 7, "label": "1,600+ years" }
+        ]
+      }
+    ],
+    "deliver": ["The full reel as an MP4 with sound, loudness-matched to −15 LUFS", "A 720p share copy", "The params file behind every piece"],
+    "onRequest": ["9:16 reframes for Shorts", "Any piece as a transparent overlay for your editor", "Your channel's fonts, colours and sound palette"],
+    "footer": ["Built by Claude Opus 5.5 · September 2026", "Map data: Natural Earth · Type: Google Fonts · Animation: GSAP"]
+  },
+  "slug": "opus-5.5-motion-reel-vol-2",
+  "fileBase": "Opus-5.5-Motion-Reel-Vol-2"
+}

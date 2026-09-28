@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "niche": "Tech channel intro",
+    "title": "Byte Sized, S02E07",
+    "facts": "Fictional channel and episode."
+  },
+  "slate": "BYTE SIZED — S02E07",
+  "timecodeStart": 0,
+  "title": "BYTE SIZED",
+  "subtitle": "HONEST TECH, EXPLAINED IN TEN MINUTES",
+  "stats": ["SEASON 2", "EPISODE 7", "THE $99 PHONE, TESTED FOR A MONTH"],
+  "colors": { "accent": "#2DE2C9" },
+  "palette": ["#2DE2C9", "#ECE9E1", "#0A0B0D"]
+}

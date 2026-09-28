@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "niche": "Fitness coaching",
+    "title": "One More Rep",
+    "why": "The myth word flashes red with a punch-in inside the first second, the fix lands in cyan with a check, and the gym-floor mantra slams one word per beat, a rep count the viewer can chant back.",
+    "facts": "Fictional coach and script (illustrative, no real person quoted); word timings hand-authored at about three words per second."
+  },
+  "pages": [
+    [
+      { "text": "WILLPOWER", "t": 0.35 },
+      { "text": "IS", "t": 0.75 },
+      { "text": "OVERRATED.", "t": 0.92, "kw": "hit" }
+    ],
+    [
+      { "text": "YOU", "t": 1.5 },
+      { "text": "NEED", "t": 1.72 }
+    ],
+    [
+      { "text": "A", "t": 2.2 },
+      { "text": "BETTER", "t": 2.34 },
+      { "text": "SYSTEM.", "t": 2.72, "kw": "win", "icon": "check" }
+    ],
+    [
+      { "text": "PROGRESS", "t": 3.6, "kw": "keep" },
+      { "text": "BEATS", "t": 4.05 },
+      { "text": "PERFECTION", "t": 4.35, "kw": "strike", "newLine": true }
+    ]
+  ],
+  "slams": [
+    { "text": "ONE.", "t": 5.1, "kw": "accent" },
+    { "text": "MORE.", "t": 5.6 },
+    { "text": "REP.", "t": 6.1, "kw": "accent" }
+  ],
+  "footage": {
+    "wall": ["#1c1411", "#110d0c", "#0a0e16", "#060b18"],
+    "warm": "#FF6A3D",
+    "cool": "#2E7BFF"
+  },
+  "padNotes": [123.5, 164.8, 196, 246.9],
+  "slamPadNotes": [130.8, 196, 261.6, 329.6],
+  "droneHz": 41.2,
+  "bg": "#0a0807",
+  "palette": ["#D4FF3A", "#FF453A", "#110D0C"],
+  "colors": { "accent": "#D4FF3A", "hit": "#FF453A", "win": "#38D9FF", "struck": "#BDBDC6" }
+}

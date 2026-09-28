@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "niche": "Movie trailer breakdowns",
+    "title": "The Violet Volt: Trailer #2",
+    "why": "Each panel lands like a trailer cut, the BRAAAM hit pays off the riser, and the dive through the dots turns the payoff into the title card.",
+    "facts": "Fictional hero, film and trailer (The Violet Volt); the 47 Easter eggs are part of the fiction. Comic-cover pastiche, no real characters or titles."
+  },
+  "caption": "THIS SUMMER...",
+  "balloon": { "text": "NOT ON MY WATCH.", "kind": "speech" },
+  "sfx": "BRAAAM!",
+  "hero": "VIOLET VOLT",
+  "cover": {
+    "the": "THE",
+    "price": "#2",
+    "issue": "TRAILER",
+    "badge": ["47", "EASTER EGGS!"],
+    "blurb": ["EVERY FRAME", "BROKEN DOWN!"]
+  },
+  "padNotes": [233.1, 293.7, 349.2, 466.2],
+  "chordNotes": [466.2, 587.3, 698.5, 932.3],
+  "droneHz": 58.3,
+  "palette": ["#8E3FE0", "#FFD400", "#00B8A9"],
+  "colors": { "hero": "#8E3FE0", "cyan": "#00B8A9", "skin": "#C68A62" }
+}

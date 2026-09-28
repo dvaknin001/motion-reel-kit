@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "niche": "Classics & Ancient Literature",
+    "title": "Sing, Goddess",
+    "facts": "Greek: Iliad 1.1–7 as printed in the Oxford Classical Text (Monro & Allen, 1920; Perseus Digital Library), set in unaccented capitals without modern punctuation, as papyrus rolls were written; the papyrus itself is illustrative. English is a literal rendering of line 1. Composition: scholarly consensus puts the Iliad in the late 8th century BC, some favour the 7th (Wikipedia, 'Iliad'). Venetus A (Marciana 822 = Marcianus Graecus Z. 454) is 'the oldest complete text of the Iliad in existence', made toward the end of the 10th century AD (Homer Multitext project). The count uses c. 725 BC and c. 975 AD (1,699 years) and rounds down to 1,600+."
+  },
+  "chip": "HOMER · THE ILIAD · BOOK I",
+  "dir": "ltr",
+  "font": "'EB Garamond', 'Palatino Linotype', Palatino, serif",
+  "flow": false,
+  "columns": 1,
+  "gild": 0,
+  "lines": [
+    "ΜΗΝΙΝ ΑΕΙΔΕ ΘΕΑ ΠΗΛΗΙΑΔΕΩ ΑΧΙΛΗΟΣ",
+    "ΟΥΛΟΜΕΝΗΝ Η ΜΥΡΙ’ ΑΧΑΙΟΙΣ ΑΛΓΕ’ ΕΘΗΚΕ",
+    "ΠΟΛΛΑΣ Δ’ ΙΦΘΙΜΟΥΣ ΨΥΧΑΣ ΑΙΔΙ ΠΡΟΙΑΨΕΝ",
+    "ΗΡΩΩΝ ΑΥΤΟΥΣ ΔΕ ΕΛΩΡΙΑ ΤΕΥΧΕ ΚΥΝΕΣΣΙΝ",
+    "ΟΙΩΝΟΙΣΙ ΤΕ ΠΑΣΙ ΔΙΟΣ Δ’ ΕΤΕΛΕΙΕΤΟ ΒΟΥΛΗ",
+    "ΕΞ ΟΥ ΔΗ ΤΑ ΠΡΩΤΑ ΔΙΑΣΤΗΤΗΝ ΕΡΙΣΑΝΤΕ",
+    "ΑΤΡΕΙΔΗΣ ΤΕ ΑΝΑΞ ΑΝΔΡΩΝ ΚΑΙ ΔΙΟΣ ΑΧΙΛΛΕΥΣ"
+  ],
+  "translation": ["Sing, goddess, the *wrath*", "of Achilles, son of Peleus"],
+  "reference": "ILIAD 1.1",
+  "timeline": {
+    "from": { "year": -725, "date": "c. 8th century BC", "label": "Iliad composed" },
+    "to": { "year": 975, "date": "10th century AD", "label": "Venetus A, oldest complete copy" },
+    "roundTo": 100,
+    "unit": "YEARS LATER"
+  },
+  "material": "papyrus",
+  "padNotes": [146.83, 220, 329.63, 349.23],
+  "palette": ["#E2B65C", "#E6D1A0", "#15100B"],
+  "colors": {
+    "ink": "#17120D", "inkAlt": "#2C2219",
+    "parchment": "#9C7D4A", "parchmentLight": "#E8D5A6"
+  }
+}

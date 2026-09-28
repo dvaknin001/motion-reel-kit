@@ -1,0 +1,59 @@
+{
+  "name": "Opus 5.5 Motion Reel",
+  "slug": "opus-5.5-motion-reel",
+  "fileBase": "Opus-5.5-Motion-Reel",
+  "fps": 60,
+  "lufs": -15,
+  "about": "The original showcase. Energy alternates (hook → data → mood → spectacle), no two neighbours share a palette, and each transition borrows the language of the piece it opens. mix = per-piece level trim in dB from a loudness pass on the first full mix.",
+  "sequence": [
+    { "key": "intro", "style": "reel-open-bars", "role": "open" },
+    { "key": "captions", "style": "captions-kinetic", "mix": -1.0, "trans": { "type": "flash", "dur": 0.3 } },
+    { "key": "finance", "style": "finance-growth-curve", "mix": 1.0, "trans": { "type": "whip", "dur": 0.45, "dir": 1 } },
+    { "key": "truecrime", "style": "truecrime-case-board", "mix": -0.5, "trans": { "type": "glitch", "dur": 0.36 } },
+    { "key": "loot", "style": "gaming-loot-reveal", "mix": -2.5, "trans": { "type": "zoom", "dur": 0.5 } },
+    { "key": "hannibal", "style": "history-campaign-map", "mix": 1.5, "trans": { "type": "burn", "dur": 0.7 } },
+    { "key": "sports", "style": "sports-head-to-head", "mix": 0.8, "trans": { "type": "slash", "dur": 0.55, "colors": ["#CE1141", "#552583", "#FDB927"] } },
+    { "key": "space", "style": "science-scale-zoom", "mix": -1.8, "trans": { "type": "iris", "dur": 0.6, "color": "#FFB938" } },
+    { "key": "scroll", "style": "faith-scroll-reveal", "trans": { "type": "dip", "dur": 0.6 } },
+    { "key": "tech", "style": "tech-spec-callouts", "mix": 2.0, "trans": { "type": "swipe", "dur": 0.5, "color": "#7FE3FF" } },
+    { "key": "coldwar", "style": "coldwar-range-rings", "mix": 0.8, "trans": { "type": "blinds", "dur": 0.5, "angle": 0, "stripe": 12 } },
+    { "key": "recipe", "style": "cooking-recipe-card", "mix": 0.5, "trans": { "type": "push", "dur": 0.5, "dir": 1 } },
+    { "key": "comics", "style": "comics-panel-slam", "mix": -1.5, "trans": { "type": "halftone", "dur": 0.55 } },
+    { "key": "subscribe", "style": "cta-subscribe", "mix": -1.5, "trans": { "type": "whip", "dur": 0.45, "dir": -1 }, "alpha": true },
+    { "key": "outro", "style": "reel-close-bars", "role": "close", "mix": 1.5, "trans": { "type": "dip", "dur": 0.5 } }
+  ],
+  "page": {
+    "title": "Opus 5.5 Motion Reel",
+    "brand": "Opus 5.5",
+    "brandSub": "Motion reel",
+    "eyebrow": "Showreel · September 2026",
+    "headline": "Motion graphics that keep people watching.",
+    "lede": "Thirteen pieces across twelve YouTube niches, cut as one reel. Every frame and every sound effect on this page is generated live from code, and the same code renders frame-exact MP4s for an edit.",
+    "resume": [
+      ["Role", "Motion designer for YouTube channels"],
+      ["Craft", "Kinetic type, animated data, map animation, 2D effects, sound design"],
+      ["Niches", "Finance, true crime, history, gaming, space, sports, faith, tech, Cold War, cooking, comics, podcasts"],
+      ["Output", "H.264 MP4, 1080p60, 48 kHz stereo; one file per piece plus the full reel"]
+    ],
+    "piecesIntro": "Each piece speaks one niche's visual language. Hover a thumbnail to preview it; the play button jumps the reel to that piece. Every real figure is sourced under its piece.",
+    "rulesTitle": "How I cut for retention",
+    "rulesIntro": "Seven rules the reel follows. The numbers in this section are measured from the reel's own timeline when the page loads, so they change if the edit changes.",
+    "rules": [
+      { "title": "Change something every two seconds", "text": "Pattern interrupts reset attention. Across the {pieces} pieces, the longest stretch without a new visual event is {maxGap}.", "links": [{ "key": "captions", "at": 4.9, "label": "Style switch at the climax" }, { "key": "loot", "at": 0.8, "label": "Rarity tiers every half second" }] },
+      { "title": "Ease every move", "text": "Nothing moves at constant speed except clocks and counters. Expo and back curves give entrances weight and overshoot. Watch any piece at ¼× to see the curves.", "links": [{ "key": "finance", "at": 0, "label": "Compound Curve in slow motion", "rate": 0.25 }] },
+      { "title": "Put a sound on every hit", "text": "The reel carries {cues} sound cues in {duration}, one every {cueEvery}, each placed on the frame of the event it belongs to.", "links": [{ "key": "comics", "at": 1.8, "label": "KRAKOOM" }, { "key": "truecrime", "at": 6.0, "label": "The stamp" }] },
+      { "title": "Let the number ride the picture", "text": "A number means more when it is attached to the thing it measures: the tag riding the growth curve, the army count dropping on the Alps, the cities lighting up as the ring reaches them.", "links": [{ "key": "finance", "at": 1.4, "label": "Tag on the curve" }, { "key": "hannibal", "at": 3.4, "label": "Army on the Alps" }, { "key": "coldwar", "at": 2.4, "label": "Range rings" }] },
+      { "title": "Lead the eye with the camera", "text": "One focal point at a time. The camera follows the string across the case board and rides the head of the route, so the viewer never has to search the frame.", "links": [{ "key": "truecrime", "at": 0.8, "label": "Rostrum move" }, { "key": "hannibal", "at": 0.8, "label": "Camera on the route" }] },
+      { "title": "Match the niche’s native look", "text": "Phosphor green for 1962, halftone for comics, parchment for 218 BC, broadcast bars for sports. Viewers read the genre in the first frame.", "links": [{ "key": "coldwar", "at": 0, "label": "CRT" }, { "key": "comics", "at": 0, "label": "Halftone" }, { "key": "sports", "at": 0, "label": "Broadcast" }] },
+      { "title": "Get the facts right", "text": "Every real figure is computed or sourced, and the source is listed under each piece. Distances on the Cold War map are great-circle distances from the missile site; the finance curve is the actual annuity formula.", "links": [{ "key": "coldwar", "at": 3.8, "label": "Washington at 1,019 nm" }, { "key": "finance", "at": 6.3, "label": "The computed total" }] }
+    ],
+    "deliver": [
+      "The full reel as an MP4 with sound, loudness-matched to −15 LUFS",
+      "Each piece as its own MP4",
+      "The subscribe animation as a transparent ProRes 4444 overlay",
+      "Source code for every piece: change a number, a name or a timing and re-render"
+    ],
+    "onRequest": ["9:16 reframes for Shorts", "Any piece as a transparent overlay for your editor", "Your channel's fonts, colours and sound palette"],
+    "footer": ["Built by Claude Opus 5.5 · September 2026", "Map data: Natural Earth · Type: Google Fonts · Animation: GSAP"]
+  }
+}

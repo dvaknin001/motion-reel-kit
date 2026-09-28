@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "niche": "Data storytelling",
+    "title": "Minard's March",
+    "why": "Charles Minard's 1869 chart told this story with one shrinking band; here the counter shrinks instead while the camera rides the army to Moscow and back, the winter storm drives the collapse, and the loop closes where it began.",
+    "facts": "Army sizes are Minard's (Carte figurative, 1869) as read by Tufte, The Visual Display of Quantitative Information (1983): 422,000 crossed the Niemen in June 1812, 100,000 reached Moscow, 10,000 struggled back; values between stops are interpolated. Dates (napoleon-empire.org day-by-day; Wikipedia, French invasion of Russia): Niemen crossed 24 Jun 1812, Vilna 28 Jun, Vitebsk 28 Jul, Smolensk 16–18 Aug, Borodino 7 Sep, Moscow 14 Sep–19 Oct (first light snow there 13 Oct; hard frost and frequent snow on the retreat from 26 Oct), Berezina 26–29 Nov, Ney's rearguard recrossed at Kovno 14 Dec. Britannica puts the force that entered Russia above 450,000. Natural Earth 50m; route and rivers are schematic."
+  },
+  "map": "russia1812",
+  "date": "1812",
+  "title": "NAPOLEON’S MARCH ON MOSCOW",
+  "route": [
+    { "name": "KOVNO", "lon": 23.9, "lat": 54.9, "label": "above", "count": 422000, "note": "CROSSED THE NIEMEN" },
+    { "name": "VILNA", "lon": 25.28, "lat": 54.69, "label": "below" },
+    { "name": "VITEBSK", "lon": 30.2, "lat": 55.19, "label": "above" },
+    { "name": "SMOLENSK", "lon": 32.04, "lat": 54.78, "kind": "battle", "year": "AUG 1812", "label": "above" },
+    { "name": "BORODINO", "lon": 35.82, "lat": 55.52, "kind": "battle", "year": "SEP 1812", "label": "above" },
+    { "name": "MOSCOW", "lon": 37.62, "lat": 55.75, "kind": "storm", "label": "right", "count": 100000, "note": "REACHED MOSCOW", "turn": true },
+    { "name": "BEREZINA", "lon": 28.35, "lat": 54.33, "kind": "battle", "year": "NOV 1812", "label": "below" },
+    { "name": "", "lon": 23.9, "lat": 54.9, "count": 10000, "note": "MADE IT BACK" }
+  ],
+  "weather": "snow",
+  "token": "N",
+  "counter": { "label": "GRANDE ARMÉE", "side": "right", "stat": null },
+  "cities": [],
+  "finale": {
+    "title": "THE NIEMEN", "date": "DEC 1812",
+    "value": 412000, "prefix": "", "suffix": "",
+    "line": "{value} men lost in under six months",
+    "note": "Minard’s figures. Historians put the invading force above 450,000."
+  },
+  "camera": { "zoom": 1, "wide": null, "end": null },
+  "rivers": [
+    [[27.25, 53.55], [26.73, 53.48], [26.0, 53.55], [25.3, 53.5], [24.53, 53.41], [24.1, 53.55], [23.83, 53.68], [23.97, 54.02], [24.18, 54.16], [24.05, 54.4], [23.97, 54.62], [23.9, 54.9], [23.3, 55.05], [22.77, 55.08], [21.87, 55.08], [21.3, 55.3]],
+    [[26.9, 54.5], [26.2, 54.72], [25.6, 54.7], [25.28, 54.69], [24.9, 54.83], [24.4, 54.9], [23.9, 54.9]],
+    [[32.26, 56.65], [31.8, 56.05], [31.2, 55.6], [30.73, 55.42], [30.2, 55.19], [29.5, 55.4], [28.8, 55.49], [27.94, 55.78], [26.53, 55.87], [26.18, 56.35], [25.86, 56.5], [25.43, 56.64], [24.6, 56.8], [24.1, 56.95], [24.02, 57.06]],
+    [[34.3, 55.85], [33.95, 55.25], [33.3, 54.9], [32.6, 54.83], [32.05, 54.78], [31.3, 54.72], [30.9, 54.6], [30.4, 54.5], [30.3, 54.2], [30.33, 53.9], [30.24, 53.52], [30.05, 53.09], [30.1, 52.7], [30.4, 52.36], [30.6, 51.9]],
+    [[27.77, 54.9], [28.2, 54.55], [28.4, 54.33], [28.5, 54.23], [28.75, 53.8], [29.0, 53.45], [29.22, 53.14], [29.73, 52.63], [30.3, 52.3]],
+    [[35.3, 55.55], [36.03, 55.5], [36.6, 55.6], [37.1, 55.72], [37.62, 55.75], [38.0, 55.62], [38.4, 55.4], [38.78, 55.1]],
+    [[21.3, 51.8], [21.05, 52.2], [20.75, 52.42], [20.3, 52.4], [19.7, 52.55], [19.0, 52.95], [18.7, 53.1]],
+    [[32.8, 57.25], [33.3, 56.9], [34.0, 56.4], [34.33, 56.26], [34.93, 56.51], [35.9, 56.86], [36.77, 56.7], [37.17, 56.73], [37.84, 57.24], [38.44, 57.53], [38.83, 58.05]]
+  ],
+  "lakes": [],
+  "mountains": [],
+  "labels": [
+    { "text": "RUSSIAN EMPIRE", "lon": 34.2, "lat": 56.45, "size": 36, "spacing": 18, "opacity": 0.6 },
+    { "text": "DUCHY OF WARSAW", "lon": 23.0, "lat": 53.75, "size": 24, "spacing": 8, "opacity": 0.55 },
+    { "text": "PRUSSIA", "lon": 20.4, "lat": 54.4, "size": 28, "spacing": 14, "opacity": 0.55 },
+    { "text": "BALTIC SEA", "lon": 19.75, "lat": 56.9, "size": 28, "spacing": 8, "opacity": 0.85, "sea": true, "along": [[19.75, 58.0], [19.75, 55.8]] }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Your Name Motion Reel",
+  "fileBase": "Your-Name-Motion-Reel",
+  "fps": 60,
+  "lufs": -15,
+  "about": "Copy this file (or run tools/new-reel.mjs). Items play in order; 'trans' is the transition INTO an item; 'mix' trims an item's level in dB; 'role' marks the bookends; 'alpha': true also exports a transparent overlay. Params: 'paramsFile' (path from this folder or the kit root) and/or inline 'params'; 'meta' overrides the card copy. Page copy lives in 'page'; rule text can quote {pieces} {maxGap} {cues} {cueEvery} {duration} {transitions}.",
+  "sequence": [
+    { "key": "intro", "style": "reel-open-bars", "role": "open", "params": { "slate": "YOUR NAME — MOTION REEL", "title": "YOUR NAME", "stats": ["3 PIECES", "3 NICHES", "EVERY FRAME AND SOUND GENERATED FROM CODE"] } },
+    { "key": "finance", "style": "finance-growth-curve", "paramsFile": "styles/finance-growth-curve/examples/index-fund-weekly.json", "trans": { "type": "flash", "dur": 0.3 } },
+    { "key": "sports", "style": "sports-head-to-head", "trans": { "type": "slash", "dur": 0.55 } },
+    { "key": "subscribe", "style": "cta-subscribe", "trans": { "type": "whip", "dur": 0.45, "dir": -1 }, "alpha": true },
+    { "key": "outro", "style": "reel-close-bars", "role": "close", "trans": { "type": "dip", "dur": 0.5 }, "params": { "title": "YOUR NAME" } }
+  ],
+  "page": {
+    "title": "Your Name Motion Reel",
+    "brand": "Your Name",
+    "brandSub": "Motion reel",
+    "eyebrow": "Showreel",
+    "headline": "Motion graphics that keep people watching.",
+    "lede": "Three pieces across three YouTube niches, cut as one reel. Every frame and every sound effect on this page is generated live from code.",
+    "resume": [["Role", "Motion designer for YouTube channels"], ["Niches", "Investing, sports, universal CTA"], ["Output", "H.264 MP4, 1080p60, 48 kHz stereo"]],
+    "piecesTitle": "The pieces",
+    "piecesIntro": "Each piece speaks one niche's visual language. Hover a thumbnail to preview it; the play button jumps the reel to that piece.",
+    "rulesTitle": "How I cut for retention",
+    "rulesIntro": "The numbers in this section are measured from the reel's own timeline when the page loads.",
+    "rules": [
+      { "title": "Change something every two seconds", "text": "Across the {pieces} pieces, the longest stretch without a new visual event is {maxGap}.", "links": [{ "key": "finance", "at": 1.4, "label": "Tag on the curve" }] },
+      { "title": "Put a sound on every hit", "text": "The reel carries {cues} sound cues in {duration}, one every {cueEvery}.", "links": [{ "key": "sports", "at": 0, "label": "Broadcast package" }] }
+    ],
+    "deliver": ["The full reel as an MP4 with sound, loudness-matched to −15 LUFS", "Each piece as its own MP4", "The subscribe animation as a transparent ProRes 4444 overlay"],
+    "onRequest": ["9:16 reframes for Shorts", "Your channel's fonts, colours and sound palette"],
+    "footer": ["Your Name · 2026", "Map data: Natural Earth · Type: Google Fonts · Animation: GSAP"]
+  }
+}

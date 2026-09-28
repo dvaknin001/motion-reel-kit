@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "niche": "Tennis",
+    "title": "Dead Even",
+    "why": "Six stats with the winner swapping sides almost every row, so the viewer keeps a running count, and the buzzer lands on 3-3: the GOAT debate in seven seconds, without picking a side.",
+    "facts": "Final ATP singles career records; both players are retired (Federer 2022, Nadal 2024), so the numbers are frozen. Sources: ATP Tour (player bios and retirement features, Lexus ATP Head2Head) and Wikipedia (Roger Federer, Rafael Nadal, Federer-Nadal rivalry). Grand Slam titles 20 vs 22; weeks at No. 1 310 vs 209; tour-level titles 103 vs 92; ATP Masters 1000 titles 28 vs 36; ATP Finals titles 6 vs 0; head-to-head Nadal leads 24-16 in 40 meetings. Colours: Wimbledon grass for Federer, Roland Garros clay for Nadal."
+  },
+  "left": { "sub": "ROGER", "name": "FEDERER", "number": "20" },
+  "right": { "sub": "RAFAEL", "name": "NADAL", "number": "22" },
+  "rows": [
+    { "label": "GRAND SLAM TITLES", "left": 20, "right": 22 },
+    { "label": "WEEKS AT NO. 1", "left": 310, "right": 209 },
+    { "label": "CAREER TITLES", "left": 103, "right": 92 },
+    { "label": "MASTERS 1000 TITLES", "left": 28, "right": 36 },
+    { "label": "ATP FINALS TITLES", "left": 6, "right": 0 },
+    { "label": "HEAD-TO-HEAD WINS", "left": 16, "right": 24 }
+  ],
+  "finalLabel": "DEAD EVEN",
+  "caption": "Career singles · ATP Tour · both retired",
+  "bg": "#070805",
+  "palette": ["#23A05A", "#D9692A", "#FFD23F"],
+  "colors": {
+    "left": {
+      "panel": ["#23A05A", "#157A40", "#0B4727", "#062816", "#020E07"], "sheen": "rgba(150,255,190,.3)",
+      "number": "rgba(255,255,255,.3)", "numberFill": "rgba(0,0,0,.13)", "stripe": "#4B1F78", "stripeLine": "rgba(255,255,255,.5)",
+      "vs": "#0E6A36", "bar": ["#0A4A26", "#1D9150"], "barWin": ["#28B062", "#8BF0B0"], "barGlow": "rgba(70,230,140,.75)",
+      "accent": "#FFFFFF", "valueGlow": "rgba(80,235,150,.8)", "plate": ["#26A85E", "#0F6A37"]
+    },
+    "right": {
+      "panel": ["#D9692A", "#B04E17", "#62290C", "#301306", "#120603"], "sheen": "rgba(255,214,90,.26)",
+      "number": "rgba(255,214,90,.36)", "numberFill": "rgba(0,0,0,.15)", "stripe": "#FFD23F", "stripeLine": "rgba(255,255,255,.42)",
+      "vs": "#A2410F", "bar": ["#6A2A0A", "#BA561B"], "barWin": ["#E06A22", "#FFB36B"], "barGlow": "rgba(255,140,60,.8)",
+      "accent": "#FFD23F", "valueGlow": "rgba(255,210,63,.6)", "plate": ["#E0712C", "#8E3A10"]
+    },
+    "spark": "#FFD23F",
+    "backdrop": ["#1E2014", "#0D0E09", "#070805"],
+    "scoreboard": { "led": "#FFC23A", "ring": "#FFD34D", "glow": "#FFB020", "tag": "#1C7A43", "flash": "#FFB020" }
+  }
+}

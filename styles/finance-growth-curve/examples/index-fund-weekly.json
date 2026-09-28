@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "niche": "Investing",
+    "title": "The Weekly Habit",
+    "facts": "Future value of $50 invested weekly at an illustrative 7% annual return, compounded weekly, 2,080 deposits over 40 years."
+  },
+  "eyebrow": "INDEX FUND HABIT",
+  "headline": "$50 a week. 40 years.",
+  "chip": "AT 7% A YEAR",
+  "monthly": 50,
+  "periodsPerYear": 52,
+  "rate": 0.07,
+  "years": 40,
+  "axisMax": null,
+  "axisStep": null,
+  "xStep": 10,
+  "milestones": [100000, 250000, 500000],
+  "totalLabel": "AFTER {years} YEARS",
+  "note": "Illustrative: 7% average annual return, compounded weekly. Not financial advice.",
+  "background": "radial-gradient(110% 90% at 18% 8%, #0F2340 0%, #0A1629 48%, #050A14 100%)",
+  "palette": ["#4FC3FF", "#FFC94A", "#0A1629"],
+  "colors": {
+    "accent": "#4FC3FF", "muted": "#7F9BBE", "deposits": "#A9BCD6", "note": "#4D6485",
+    "grid": "#16284A", "gridBase": "#2B4A7A", "gridV": "#112240", "ringFill": "#081428", "tagBg": "rgba(5,12,26,.88)", "dot": "#E6F6FF"
+  }
+}

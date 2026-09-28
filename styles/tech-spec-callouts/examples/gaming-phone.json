@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "niche": "Mobile gaming",
+    "title": "The Throttle Test",
+    "why": "The callouts sell the cooling before any data appears, so when the sustained-FPS bars race the viewer already knows why the gaming phone pulls ahead; the temperature row lands the proof in degrees.",
+    "facts": "Fictional devices (ZEPHRA G1, NOVA X1) with illustrative figures, not real test results. The style computes both chips: 118 vs 86 fps = +37% (118 / 86 = 1.372); peak surface temperature 41 °C vs 47 °C, lower is better, = 6 °C cooler."
+  },
+  "eyebrow": "STRESS TEST",
+  "device": "ZEPHRA G1",
+  "brand": "ZEPHRA",
+  "clock": "23:14",
+  "callouts": [
+    { "feature": "display", "label": "DISPLAY", "value": "6.8-inch 165 Hz AMOLED" },
+    { "feature": "camera", "label": "CAMERA", "value": "50 MP main · 4K 120 fps" },
+    { "feature": "chip", "label": "COOLING", "value": "Vapour chamber + fan", "icon": "fan" },
+    { "feature": "battery", "label": "BATTERY", "value": "6,000 mAh · 65 W", "icon": "bolt" }
+  ],
+  "rival": { "name": "NOVA X1", "note": "(flagship)" },
+  "benchmarks": [
+    { "label": "SUSTAINED FPS · 30-MIN SESSION", "ours": 118, "rival": 86, "unit": " fps", "decimals": 0, "higherIsBetter": true, "delta": "pct", "chip": "{delta}" },
+    { "label": "PEAK SURFACE TEMP", "ours": 41, "rival": 47, "unit": " °C", "decimals": 0, "higherIsBetter": false, "delta": "diff", "chip": "{abs} cooler" }
+  ],
+  "note": "Fictional devices. Illustrative figures.",
+  "padNotes": [164.8, 246.9, 293.7, 392],
+  "background": "radial-gradient(60% 55% at 50% 45%, #1F0E16 0%, #10070C 60%, #070306 100%)",
+  "bg": "#0B0509",
+  "palette": ["#FF4B3E", "#8A3CFF", "#1A0C12"],
+  "colors": {
+    "accent": "#FF4B3E", "ink": "#FFF0EC", "faint": "#8A6A70",
+    "glowA": "#FF3B30", "glowB": "#7A2CFF", "grid": "#FFB4A6", "mote": "#FFCFC4",
+    "bar": ["#FF4B3E", "#FF8A2E", "#FFC53D"], "barGlow": "#FF6A3D", "badgeEnd": "#FFB03D", "badgeText": "#1C0604",
+    "back": ["#3A2A33", "#1E151B", "#0E0A0D"], "screen": ["#3A0A18", "#1E0A33", "#08050C"],
+    "wallpaper": ["#FF4B3E", "#8A3CFF", "#FFB03D"], "ribbons": ["#FF6A3D", "#B05CFF", "#FFC53D"]
+  }
+}

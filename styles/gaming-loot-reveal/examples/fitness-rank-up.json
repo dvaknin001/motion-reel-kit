@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "niche": "Fitness app rank-ups",
+    "title": "Diamond Season",
+    "why": "A season of runs becomes a four-step climb the viewer has to see finish, and the flash lands the new rank like a legendary drop.",
+    "facts": "Fictional running app, runner, rank thresholds and season stats; illustrative only."
+  },
+  "tiers": [
+    { "name": "BRONZE", "color": "#D08A4E", "chance": "TOP 60%" },
+    { "name": "SILVER", "color": "#C9D3DE", "chance": "TOP 25%" },
+    { "name": "GOLD", "color": "#FFC940", "chance": "TOP 8%" },
+    { "name": "DIAMOND", "color": "#6FE8FF", "chance": "TOP 1%" }
+  ],
+  "chanceLabel": "RANKED IN THE",
+  "cardBack": { "glyph": "?", "label": "SEASON RANK" },
+  "item": {
+    "name": "RELENTLESS",
+    "type": "SEASON 4 FINAL RANK · RUNNING",
+    "icon": "trophy",
+    "pips": 4
+  },
+  "stats": [
+    { "label": "RUNS LOGGED", "value": 214, "max": 250, "unit": "" },
+    { "label": "DISTANCE", "value": 1860, "max": 2000, "unit": " KM" },
+    { "label": "LONGEST STREAK", "value": 96, "max": 120, "unit": " DAYS" }
+  ],
+  "badge": "RANK UP!",
+  "padNotes": [146.8, 185, 220, 277.2],
+  "droneHz": 73.4,
+  "chordNotes": [587.3, 740, 880, 1174.7],
+  "background": "radial-gradient(95% 85% at 50% 44%, #10224A 0%, #0A1530 46%, #050A18 100%)",
+  "bg": "#050A18",
+  "palette": ["#6FE8FF", "#4A63B5", "#050A18"],
+  "colors": { "theme": "#4A63B5", "ink": "#EEF6FF", "muted": "#A9BCE0", "dim": "#6479A6" }
+}

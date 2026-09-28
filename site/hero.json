@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "niche": "Dean Builds AI",
+    "title": "Watch Me Build",
+    "facts": "Dean's own bio lines. $10K a month is his stated goal, not a result."
+  },
+  "pages": [
+    [{ "text": "I" }, { "text": "BUILD" }, { "text": "FACELESS", "kw": "hit" }],
+    [{ "text": "AI", "kw": "keep" }, { "text": "YOUTUBE" }, { "text": "CHANNELS.", "kw": "win", "icon": "check" }],
+    [{ "text": "DOCUMENTING" }, { "text": "THE" }, { "text": "JOURNEY" }],
+    [{ "text": "FROM" }, { "text": "$0" }, { "text": "TO" }, { "text": "$10K", "kw": "win", "icon": "arrow", "newLine": true }, { "text": "A" }, { "text": "MONTH." }]
+  ],
+  "slams": [
+    { "text": "WATCH.", "kw": "accent" },
+    { "text": "ME." },
+    { "text": "BUILD.", "kw": "win" }
+  ],
+  "wordsPerSecond": 2.9,
+  "footage": {
+    "show": true,
+    "wall": ["#0f1a14", "#0b120e", "#0a100d", "#06140d"],
+    "warm": "#FF6A3A",
+    "cool": "#08DA71"
+  },
+  "colors": { "accent": "#08DA71", "hit": "#FF3131", "win": "#08DA71", "text": "#FFFFFF", "struck": "#C9C9CF" },
+  "bg": "#0D0E10",
+  "palette": ["#08DA71", "#FF3131", "#0D0E10"]
+}

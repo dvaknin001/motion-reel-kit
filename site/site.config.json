@@ -1,0 +1,56 @@
+{
+  "project": "deanbuildsai",
+  "url": "https://deanbuildsai.pages.dev",
+  "brand": "Dean Builds AI",
+  "name": "Dean Vaknin",
+  "description": "Dean Vaknin builds faceless AI YouTube channels and documents the journey from $0 to $10k a month. New AI tools and how-to guides on YouTube, plus a free, open-source motion graphics kit.",
+  "eyebrow": "@dean.builds.ai · building in public",
+  "headlineHtml": "I build <span class=\"hl-red\">faceless</span> <span class=\"hl-green\">AI</span> YouTube channels.",
+  "bio": "Documenting the journey from $0 to $10k a month. Then $10k to $20k a month.",
+  "instagram": {
+    "handle": "dean.builds.ai",
+    "url": "https://www.instagram.com/dean.builds.ai/",
+    "title": "The build, documented.",
+    "pitch": "From $0 to $10k a month with faceless AI YouTube channels, documented as it happens."
+  },
+  "youtube": {
+    "handle": "ai-laboratory-yt",
+    "url": "https://www.youtube.com/@ai-laboratory-yt",
+    "title": "New AI, explained.",
+    "pitch": "Updates on the newest AI tools, and guides on how to actually use them."
+  },
+  "welcome": {
+    "instagram": "👋 Welcome from Instagram. New AI tools and how-to guides are on YouTube.",
+    "instagramNoYoutube": "👋 Welcome from Instagram. Here's the free motion kit.",
+    "youtube": "👋 Welcome from YouTube. The build is documented on Instagram."
+  },
+  "follow": {
+    "headline": "Follow along.",
+    "lede": "Two channels, two jobs: the build on Instagram, new AI tools and guides on YouTube."
+  },
+  "hero": {
+    "style": "captions-kinetic",
+    "params": "site/hero.json",
+    "poster": 9.9,
+    "fonts": [
+      "Montserrat"
+    ]
+  },
+  "kit": {
+    "repo": "https://github.com/dvaknin001/motion-reel-kit"
+  },
+  "reels": [
+    {
+      "file": "reels/opus-5.5-showcase.json",
+      "path": "reels/vol-1/",
+      "title": "Motion Reel · Vol. 1",
+      "blurb": "13 pieces across 12 YouTube niches, cut as one reel. Finance curves, true-crime boards, campaign maps, loot drops, sports stats and more."
+    },
+    {
+      "file": "reels/opus-5.5-vol-2.json",
+      "path": "reels/vol-2/",
+      "title": "Motion Reel · Vol. 2",
+      "blurb": "The same 15 styles aimed at 13 new niches with nothing but JSON: tennis, Napoleon's 1812, Krakatoa, a Greek scroll, a gaming phone."
+    }
+  ]
+}

@@ -16,6 +16,7 @@ for frame-exact MP4s. There are no templates, plugins, stock footage or sample p
 | [`reels/`](reels/) | reel configs. `opus-5.5-showcase.json` rebuilds the original showcase; `opus-5.5-vol-2.json` is a second reel made only from params (13 new niches, no new code); `_template.json` is a starting point |
 | [`showcase/opus-5.5-motion-reel/`](showcase/opus-5.5-motion-reel/) | the original showcase: contact sheet and live portfolio page (`page-as-published/` is the exact page that was published). Its videos are on the [release](https://github.com/dvaknin001/motion-reel-kit/releases/tag/v1.0.0) |
 | [`showcase/opus-5.5-motion-reel-vol-2/`](showcase/opus-5.5-motion-reel-vol-2/) | Vol. 2: contact sheet and live portfolio page; videos on the release |
+| [`site/`](site/README.md) | the website, [deanbuildsai.pages.dev](https://deanbuildsai.pages.dev): a link-in-bio page whose hero is a kit style playing live, with Instagram and YouTube calls to action that adapt to the visitor |
 | `engine/` | the animation kit, the player with 13 transitions, and the procedural sound library |
 | `tools/` | render, export, page build, catalog, scaffolding, regression |
 | `docs/` | [workflow for a new reel](docs/WORKFLOW.md) · [style authoring rules](docs/STYLE_AUTHORING.md) · [pipeline](docs/PIPELINE.md) · [sound](docs/SOUND.md) |

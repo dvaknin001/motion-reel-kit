@@ -864,10 +864,12 @@ footer { margin-top: 96px; padding-top: 22px; border-top: 1px solid var(--line);
     ['400 40px "Permanent Marker"'], ['400 40px "Special Elite"'], ['400 40px "VT323"'], ['400 40px "Alfa Slab One"'],
   ];
   let readyP = null;
-  function ready() {
+  // o.families: preload only these font families (a landing page with one style doesn't need all 28 faces)
+  function ready(o) {
     if (readyP) return readyP;
+    const fam = o && o.families, faces = fam ? FONT_FACES.filter(([f]) => fam.some((n) => f.includes(`"${n}"`))) : FONT_FACES;
     readyP = (async () => {
-      try { await Promise.all(FONT_FACES.map(([f, txt]) => document.fonts.load(f, txt || 'BESbswy0123'))); } catch (e) { console.warn('[reel] font load', e); }
+      try { await Promise.all(faces.map(([f, txt]) => document.fonts.load(f, txt || 'BESbswy0123'))); } catch (e) { console.warn('[reel] font load', e); }
       await document.fonts.ready;
     })();
     return readyP;

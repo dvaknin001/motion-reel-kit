@@ -17,3 +17,6 @@ showcase/**/*.wav
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# local tool settings
+.claude/
